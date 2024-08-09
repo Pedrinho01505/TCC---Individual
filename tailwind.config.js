@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      bgcaixa: '#87BFDD',
+      background: '#EDEEEF',
+    }
   },
   plugins: [],
 }
