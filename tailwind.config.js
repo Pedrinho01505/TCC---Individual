@@ -33,11 +33,11 @@ export default {
       bottom: '.8rem',
       top: '.8rem', 
       inline: '1rem',
-      desk: '3rem'
+      desk: '1.5rem'
     },
     custom: {
       with: '50rem',
-      max: '45rem'
+      max: '50rem'
     }
   },
   plugins: [],
