@@ -4,7 +4,7 @@ import Header from '../components/Header'
 
 function Comousar() {
   return (
-    <main className='bg-fundosite font-openSans font-normal text-sm text-text'>
+    <main className='bg-fundosite min-h-screen font-openSans font-normal text-sm text-text'>
         <Header/>
         
             <h1 className='text-titulo font-bold text-center text-3xl pt-[2rem] md:pt-[3rem]'>Como usar</h1>

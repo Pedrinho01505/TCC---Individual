@@ -1,22 +1,12 @@
-import React from 'react'
-import Materiais from './pages/Materiais'
-import Comousar from './pages/Comousar'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
-const router = createBrowserRouter ([
-  {
-    path: "/",
-    element: <Materiais/>
-  }
-])
+// App.jsx
+import React from 'react';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes.jsx';
 
 function App() {
   return (
-    <div>
-      <Materiais/>
-      <Comousar/> 
-    </div>
-  )
+    <RouterProvider router={router} />
+  );
 }
 
-export default App
+export default App;

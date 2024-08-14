@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Logo from '/LOGO.svg'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -18,7 +19,7 @@ export default function Header() {
                     <a href="">Como Usar</a>
                 </li>
                 <li>
-                    <a href="/">Materiais</a>
+                    <Link to="/">Materiais</Link>
                 </li>
                 <li className=''>
                     <a href="">Referências</a>

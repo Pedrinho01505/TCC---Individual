@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Logo from '/LOGO.svg'
+import { Link } from 'react-router-dom'
 
 export default function HeaderMateriais() {
   return (
@@ -15,7 +16,7 @@ export default function HeaderMateriais() {
                     <a href="">Home</a>
                 </li>
                 <li className= 'whitespace-nowrap'>
-                    <a href="">Como Usar</a>
+                    <Link to ="/comousar">Como Usar</Link>
                 </li>
                 <li className='text-titulo underline decoration-titulo decoration-2'>
                     <a href="">Materiais</a>
