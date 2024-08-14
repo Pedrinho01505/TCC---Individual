@@ -13,6 +13,7 @@ const router = createBrowserRouter ([
 function App() {
   return (
     <div>
+      <Materiais/>
       <Comousar/> 
     </div>
   )
