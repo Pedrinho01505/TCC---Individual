@@ -1,5 +1,5 @@
 import React from 'react'
-import Materiais from './pages/materiais'
+import Materiais from './pages/Materiais'
 import Comousar from './pages/Comousar'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 

@@ -9,8 +9,10 @@ import HeaderMateriais from '../components/HeaaderMaterias'
 
 function Materiais() {
   return (
-    <main className='bg-fundosite font-openSans font-normal text-sm text-text md:flex md:flex-col md:items-center'>
+    <div>
       <HeaderMateriais/>
+      <main className='bg-fundosite font-openSans font-normal text-sm text-text md:flex md:flex-col md:items-center'>
+      
       <h1 className=' text-titulo font-bold text-center pt-[2rem] text-3xl'>Materiais</h1>
       <section className='border-solid border-bgcaixa border-[0.225rem]  mx-box mb-bottom mt-top rounded-custom md:flex md:w-[50rem] sm:max-w-[47rem]'>
         <div className='flex flex-col items-center md:justify-center md:px-inline md:w-[15rem]'>
@@ -79,6 +81,8 @@ function Materiais() {
         </div>
       </section>
     </main>
+    </div>
+    
   )
 }
 

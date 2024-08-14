@@ -36,7 +36,7 @@ export default function HeaderMateriais() {
             <div className='w-6 h-1 bg-white'></div>
 
             {/* menu */}
-            <ul className='bg-bgcaixa w-screen pb-10 absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col space-y-3 justify-end text-naoSelecionado'>
+            <ul className='bg-bgcaixa w-screen pb-10 absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col space-y-3 justify-end text-naoSelecionado px-desk'>
                 <button className='px-10 py-8 relative ml-auto'>
                     <div className='w-6 h-1 rotate-45 absolute bg-white'></div>
                     <div className='w-6 h-1 -rotate-45 absolute bg-white'></div>
