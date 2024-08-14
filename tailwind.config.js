@@ -13,6 +13,7 @@ export default {
     },
     colors: {
       'bgcaixa': '#87BFDD',
+      'naoSelecionado': '#FFFFFF',
       'fundosite': '#EDEEEF',
       'titulo': '#216487',
       'text': '#3f4249'
